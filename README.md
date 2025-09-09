@@ -270,13 +270,23 @@ uvicorn main:app --reload
 - Cloud deployment experience
 
 ### **Interview Preparation Topics**
-- [ ] Explain async/await in Python
+- [ ] Explain async/await in Python and event loops
 - [ ] Database indexing and query optimization
-- [ ] Caching strategies and when to use them
-- [ ] Security best practices for APIs
-- [ ] Microservices vs monolith architecture
-- [ ] Load balancing and scaling strategies
-- [ ] Testing strategies for APIs
+- [ ] Caching strategies (Redis vs Memcached)
+- [ ] Security best practices (OWASP Top 10)
+- [ ] Microservices vs monolith trade-offs
+- [ ] Load balancing and horizontal scaling
+- [ ] Testing strategies (unit, integration, e2e)
+- [ ] **FastAPI-Specific Questions**
+  - [ ] Dependency injection vs middleware
+  - [ ] Pydantic model validation
+  - [ ] Background tasks vs Celery
+  - [ ] Performance compared to Flask/Django
+- [ ] **System Design Questions**
+  - [ ] Design a URL shortener (like bit.ly)
+  - [ ] Design a real-time chat system
+  - [ ] Design a rate limiter
+  - [ ] Handle high-traffic scenarios
 
 ---
 
